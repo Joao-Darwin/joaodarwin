@@ -1,13 +1,13 @@
 body {
-    background-image: url("imgs/backgroundDay.jpg");
+    background-image: url("imgs/backgroundNight.jpg");
     background-repeat: no-repeat;
-    color: black;
+    color: white;
     font-family: 'Almarai', sans-serif;
     transition: all 0.5s;
 }
 
 .menuSuperior {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.61);
     width: 100%;
     height: 90px;
     position: absolute;
@@ -17,7 +17,7 @@ body {
 }
 
 .tituloMenuSuperior {
-    background-image: linear-gradient(black, black);
+    background-image: linear-gradient(white, white);
     background-repeat: no-repeat;
     background-size: 0% 3px;
     background-position: left bottom;
@@ -38,7 +38,7 @@ body {
 
 .opcaoMenu {
     height: 50px;
-    background-image: linear-gradient(black, black);
+    background-image: linear-gradient(white, white);
     background-repeat: no-repeat;
     background-size: 0% 3px;
     background-position: left bottom;
