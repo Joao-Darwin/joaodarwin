@@ -37,6 +37,7 @@ body {
 }
 
 .opcaoMenu {
+    color: white;
     height: 50px;
     background-image: linear-gradient(white, white);
     background-repeat: no-repeat;
@@ -64,4 +65,25 @@ body {
     position: relative;
     top: 20%;
     left: 25%;
+}
+
+.botaoDeTeste{
+    background-color: rgba(0, 0, 0, 0.61);
+    color: white;
+    width: 20%;
+    height: 10%;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    /* box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5); */
+    transition: all 0.5s;
+}
+
+.botaoDeTeste:hover{
+    top: 47%;
 }
